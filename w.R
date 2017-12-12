@@ -23,6 +23,8 @@ boxplot(sep[,c(3,4,5)],ylab="氣溫" ,xlab="201709", las=1)
 
 boxplot(aug[,c(3,4,5)],ylab="氣溫" ,xlab="201708", las=1)
 boxplot(nov[,c(3,4,5)],ylab="氣溫" ,xlab="201711", las=1)
+data201009=x[grep("2010-09",x$測站最低氣壓時間),]
 
-plot(jul$測站氣壓,type="b", pch=16, col="black",las=1,xlab="日期",
-     ylab="大氣壓",main="2017/07", axes=TRUE)
+plot(data201009$測站氣壓,type="b", pch=16, col="black",las=1,xlab="日期",
+     ylab="大氣壓",main="2010/09", axes=TRUE)
+
