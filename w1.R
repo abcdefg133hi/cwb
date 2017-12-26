@@ -26,3 +26,6 @@ plot(data201010$測站氣壓,type="o", pch=16, col="black",las=1,xlab="日期",
      ylab="大氣壓",main="2010/10", axes=TRUE)
 mode(x)
 mode(data201010)
+abc=c("a","b","c","d","w","aif","afqofbh","qifhaoi","alfhnopsosjbgosjbvpzsbvjosbngvknskpfnapsnfp;a","odfhaoncol","afhoavjhnpa","qfjqjff")
+mode(abc)
+abc
